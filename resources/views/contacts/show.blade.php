@@ -1,2 +1,4 @@
-<h1>Show Contact</h1>
-{{ $contact->name }}
+<h1>Contact Details</h1>
+{{ $contact }}
+
+<a href="{{ route('contacts.index') }}">Show All Contacts</a>
