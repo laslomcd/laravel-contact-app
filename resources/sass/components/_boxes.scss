@@ -1,0 +1,11 @@
+.textBox {
+    color: $red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
+    ::placeholder {
+        color:green;
+    }
+    border: 1px sienna;
+}
