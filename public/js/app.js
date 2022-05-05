@@ -2164,6 +2164,11 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+document.getElementById('filter_id_company').addEventListener('change', function () {
+  var companyId = this.value || this.options[this.selectedIndex].value;
+  window.location.href = window.location.href.split('?')[0] + '?company_id=' + companyId;
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

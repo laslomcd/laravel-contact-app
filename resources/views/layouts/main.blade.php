@@ -17,7 +17,7 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand text-uppercase" href="index.html">
+        <a class="navbar-brand text-uppercase" href="{{route('contacts.index')}}">
             <strong>Contact</strong> App
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,5 +52,6 @@
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/popper.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
